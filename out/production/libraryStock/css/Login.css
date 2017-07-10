@@ -1,0 +1,168 @@
+#rootPane {
+    -fx-background-image:url(../images/loginbackground3.jpg);
+
+}
+/*
+#paneForImage {
+    -fx-background-image:url(../images/loginbackground3.jpg);
+}
+*/
+
+#txtTitle {
+    -fx-font-size: 32px;
+    -fx-fill: #000000;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7), 6,0.0,0,2 );
+	
+}
+#loginButton {
+/*    -fx-background-image:url(./images/btnLogin.png);*/
+/*    -fx-background-color:null;*/
+  /*  -fx-background-radius:0;*/
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1,#2A5058);
+    -fx-effect: dropshadow( three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1 );
+}
+#loginButton:hover {
+    -fx-background-color: linear-gradient(#2A5058,#61a2b1);
+}
+
+#lblName {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;    
+}
+
+#lblPassword {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;    
+}
+
+#closeButton {
+    -fx-background-image:url(../images/btn_close_normal.png);
+    -fx-background-color:null;
+    -fx-background-radius: 0;
+}
+
+#closeButton: focused {
+    -fx-background-image:url(../images/btn_close_normal.png); 
+}
+
+#closeButton: hover {
+    -fx-background-image:url(../images/btn_close_highlight.png);
+}
+
+#closeButton: pressed {
+    -fx-background-image:url(../images/btn_close_down.png); 
+}
+
+#miniButton {
+    -fx-background-image:url(../images/btn_mini_normal.png);
+    -fx-background-color:null;
+    -fx-background-radius: 0; 
+}
+
+#miniButton: focused {
+    -fx-background-image:url(../images/btn_mini_normal.png);
+}
+
+#miniButton: hover {
+    -fx-background-image:url(../images/btn_mini_highlight.png); 
+}
+
+#miniButton: pressed {
+    -fx-background-image:url(../images/btn_mini_down.png);
+}
+
+#aboutButton {
+    -fx-background-image:url(../images/btn_set_normal.png);
+    -fx-background-color:null;
+    -fx-background-radius: 0;
+}
+
+#aboutButton: focused {
+    -fx-background-image:url(../images/btn_set_normal.png);
+}
+
+#aboutButton: hover {
+    -fx-background-image:url(../images/btn_set_hover.png); 
+}
+
+#aboutButton: pressed {
+    -fx-background-image:url(../images/btn_set_press.png);
+}
+
+/*
+#ivButton {
+	-fx-background-image:url(../images/bookManage.png);
+    -fx-background-color:null;
+}
+
+#ivButton: hover {
+	-fx-background-image:url(../images/bookManage1.png);
+}
+
+#txtStockManage {
+	-fx-font-size: 20px;
+}
+
+#txtStockManage: hover {
+	-fx-fill: #00ffff;
+	
+}
+
+
+*/
+
+#txtMainTitle {
+	-fx-font-size:38px;
+	-fx-fill: #000000;
+	
+}
+
+#stockSearch {
+	-fx-font-size:16px;
+}
+#stockSearch:hover {
+	-fx-fill:#ff00ff;
+}
+
+#addBook {
+	-fx-font-size:16px;
+}
+#addBook:hover {
+	-fx-fill:#ff00ff;
+}
+#updateBook {
+	-fx-font-size:16px;
+}
+#updateBook:hover {
+	-fx-fill:#ff00ff;
+}
+#deleteBook {
+	-fx-font-size:16px;
+}
+#deleteBook:hover {
+	-fx-fill:#ff00ff;
+}
+#borrowBook {
+	-fx-font-size:16px;
+}
+#borrowBook:hover {
+	-fx-fill:#ff00ff;
+}
+#returnBook {
+	-fx-font-size:16px;
+}
+#returnBook:hover {
+	-fx-fill:#ff00ff;
+}
+
+
+
+
+
+
+
+
+
